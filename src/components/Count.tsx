@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { increase, decrease } from '../store/count'
+import { increase, decrease } from '../store/modules/count'
 import type { StateType } from '../store/index'
 
 const Count:FC = () => {

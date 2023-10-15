@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import countReducer from './count'
+import countReducer from './modules/count'
 
 export type StateType = {
   countStore: number
